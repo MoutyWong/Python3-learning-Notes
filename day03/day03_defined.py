@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python7
 # -*- coding:utf-8 -*-
 
 # 自定义函数 defined
