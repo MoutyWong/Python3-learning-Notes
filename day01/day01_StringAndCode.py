@@ -10,9 +10,9 @@ print(x)
 e = 'ABC'.encode('ascii')
 print(e)
 
-z = '张梦弦'.encode('utf-8')
+z = '张三'.encode('utf-8')
 print(z)
-print('张梦弦'.encode('gb2312'))
+print('张三'.encode('gb2312'))
 
 print ('===============')
 # 字节码转换为指定类型字符=============

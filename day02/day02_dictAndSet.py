@@ -5,11 +5,11 @@
 
 dic1 = {'Micheal': 95, 'Bob': 75, 'Tracy': 85}
 print(dic1['Bob'])
-dic1['Amor'] = 99
-dic1['Mout'] = 100
+dic1['Pull'] = 99
+dic1['Micheal'] = 100
 print(dic1)
 
-a = 'Amor' in dic1
+a = 'Pull' in dic1
 print(a)
 
 # set
