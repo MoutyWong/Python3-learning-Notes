@@ -4,16 +4,16 @@
 # python中的另一种序列表 元组 tuple
 # 元组tuple用双括号区分
 # 元组为只读序列
-classmates = ('Michel', 'Bob', 'Tarcy')
+classmates = ('Michael', 'Bob', 'Tarcy')
 print(classmates)
 # 只有一个元素的元组
 t1 = (1,)
 print(t1)
 # '可变元组'
-t2 = (1, 2, ['Amor', 'Mouty'])
+t2 = (1, 2, ['Michael', 'Lisa'])
 print(t2)
-t2[2][0] = '张梦弦'
-t2[2][1] = '黄茂庭'
+t2[2][0] = 'Bob'
+t2[2][1] = 'Tarcy'
 print(t2)
 
 # exercises
