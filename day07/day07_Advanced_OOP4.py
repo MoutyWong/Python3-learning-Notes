@@ -31,3 +31,45 @@ print(Weekday.Tue.value)
 print(day1 == Weekday.Mon)
 print(Weekday(1))
 print(day1 == Weekday(1))
+
+print('\n')
+
+# 使用元类
+# type() 可以查看一个类型或变量的类型，
+
+class Hello(object):
+	def hello(self, name = 'Michael'):
+		print('hello', name)
+		
+h = Hello()
+h.hello()
+print(type(Hello))
+print(type(h))
+print('\n')
+
+# 用type()动态生成class
+# 要创建一个class对象，type()函数依次传入3个参数：
+# 
+# class的名称；
+# 继承的父类集合，注意Python支持多重继承，如果只有一个父类，别忘了tuple的单元素写法；
+# class的方法名称与函数绑定，这里我们把函数fn绑定到方法名hello上。
+def fn(self, name = 'World'):
+	print('Hello', name)
+	
+Hi = type('Hi', (object,), dict(hello = fn))
+hi = Hi()
+hi.hello()
+print(type(Hi))
+print(type(hi))
+print('\n')
+
+# metaclass 元类
+class ListMetaclass(type):
+	def __new__(cls, name, bases, attrs):
+		attrs['add'] = lambda self, value: self.append(value)
+		return type.__new__(cls, name, bases, attrs)
+		
+class MyList(list, metaclass = ListMetaclass):
+	pass
+	
+	
