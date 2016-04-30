@@ -3,7 +3,7 @@
 
 ' test thread lock '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # Lock
 

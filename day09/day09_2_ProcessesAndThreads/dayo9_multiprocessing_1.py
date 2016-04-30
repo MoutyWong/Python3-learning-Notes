@@ -3,7 +3,7 @@
 
 ' test multiprocessing '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # multiprocessing 多进程
 import os

@@ -3,7 +3,7 @@
 
 ' a test unittest '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # 为了编写单元测试，需要引入python自带的unittest模块
 

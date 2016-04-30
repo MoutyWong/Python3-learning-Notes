@@ -3,7 +3,7 @@
 
 ' find files '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 import os
 

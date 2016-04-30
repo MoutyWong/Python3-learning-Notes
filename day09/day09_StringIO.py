@@ -3,7 +3,7 @@
 
 ' Input Output '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # StringIO 在内存中读写str
 # 要把str写入StringIO，需要先创建一个StringIO，然后像文件一样写入

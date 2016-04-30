@@ -3,7 +3,7 @@
 
 ' child process '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 import os, subprocess, time, random
 from multiprocessing import Process, pool, Queue

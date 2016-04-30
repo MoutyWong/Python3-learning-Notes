@@ -3,7 +3,7 @@
 
 ' a test thread local '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 
 import threading

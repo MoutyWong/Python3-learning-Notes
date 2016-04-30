@@ -3,7 +3,7 @@
 
 ' a Dict calss '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # Unit test 单元测试是用来对一个模块，一个函数或者一个类来进行正确性检验的测试工作
 # exercises

@@ -3,7 +3,7 @@
 
 ' pickling '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # 序列化：我们把变量从内存中变成可存储或传输的过程称之为序列化 在python中叫pickling,的其他语言中也被称之为serialization, marshalling, flattening
 # 反序列化：把变量内容从序列化的对象重新读到内存里称之为反序列化，unpickling

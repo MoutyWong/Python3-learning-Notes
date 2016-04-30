@@ -3,7 +3,7 @@
 
 ' a test threading '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 # 多线程 python 的标准库提供了两个模块：_thread 和 threading，_thread是低级模块，threading是高级模块,对_thread进行了封装
 

@@ -3,7 +3,7 @@
 
 ' show directory function '
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 from datetime import datetime
 import os

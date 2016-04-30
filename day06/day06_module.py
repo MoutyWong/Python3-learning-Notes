@@ -3,7 +3,7 @@
 
 ' a test module'
 
-__author__ = 'Mouty Wong'
+__author__ = 'Leslie Wong'
 
 import sys
 def test():
